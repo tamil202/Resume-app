@@ -23,7 +23,7 @@ let updateTimer;
 const music_list = [
   {
     img: "images/one.png",
-    autor:"Descide to Tamil"
+    author:"Descide to Tamil"
     music: "music/stay.mp3",
   },
   {
