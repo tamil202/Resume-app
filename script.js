@@ -20,6 +20,11 @@ let isPlaying = false;
 let isRandom = false;
 let updateTimer;
 
+function cook(){
+  document.cookies 
+  alert("cookies store");
+}
+
 const music_list = [
   {
     img: "images/one.png",
