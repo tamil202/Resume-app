@@ -21,7 +21,6 @@ let isRandom = false;
 let updateTimer;
 
 function cook(){
-  document.cookies 
   alert("cookies store");
 }
 
