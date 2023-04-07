@@ -23,7 +23,7 @@ let updateTimer;
 const music_list = [
   {
     img: "images/one.png",
-    music: "music/00101.mp3",
+    music: "00101.mp3",
   },
   {
     img: "images/one.png",
