@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-color: rgb(147, 147, 147);
+}
+.main-01{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.sub-edit{
+    min-height: 100vh;
+    width: 75em;
+    height: 95em;
+    background: linear-gradient(to right, rgb(210, 243, 210), rgb(249, 209, 209));
+}
+/* frame-01 ----------------------start */
+.frame-01{
+    position: relative;
+    width:18em ;
+    height: 95em;
+    border-right: 2px solid;
+    border-radius:0 10px 0 0;
+    background: rgb(246, 141, 106);
+}
+.name-01{
+    font-size:3em;
+    margin-left: 0.2em;
+}
+.sub-histroy-01{
+    font-size: 1.5em;
+    margin-left: 1.6em;
+}
+.personal-info{
+    background: white;
+    margin-top: 1em;
+    padding: 0.5em;
+    font-size:2em ;
+     height: 1.7em;
+}
+.address-info{
+    margin-top: 1em;
+    margin-left: 1em;
+    font-size: 2em;
+}
+.address-info-01{
+    font-size:1.5em;
+    color: white;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    letter-spacing: 2px;
+}
+.mobile{
+    margin-left:0.4em;
+    margin-top: em;
+    font-size:2em;
+    font-weight: bold;
+}
+.personal-info-02{
+    margin-left: 1em;
+    margin-top: 2em;
+}
+.mobile-no{
+    text-decoration: none;
+    color:rgb(251, 250, 250);
+    font-size: 1.5em;    
+}
+.mobile-no:hover{
+    color:black ;
+}
+.Email{
+    font-size:2em;
+    margin-left: 0.4em;
+    font-weight: bold;
+}
+.email-info{
+    text-decoration: none;
+    color:rgb(250, 246, 246);
+    font-size: 1.5em;
+}
+.email-info:hover{
+    color:black ;
+}
+
+.linkedin{
+    font-size:2em;
+    margin-left: 0.4em;
+    font-weight: bold;
+}
+.linkedin-info{
+    text-decoration: none;
+    color:rgb(250, 246, 246);
+    font-size: 1.5em;
+}
+.linkedin-info:hover{
+    color:black ;
+}
+._space-continer{
+    margin-top: 1em;
+}
+.skills-info{
+    background: white;
+    margin-top: 1em;
+    height: 1.7em;
+    padding: 0.5em;
+    font-size:2em ;
+}
+li{
+    list-style: none;
+    font-size:2em;
+    margin-bottom: 0.2em;
+}
+ul{
+    margin-top: 1em;
+    margin-left:1em ;
+}
+.software{
+       background: white;
+    margin-top: 1em;
+    height: 1.7em;
+    padding: 0.5em;
+    font-size:2em ;
+}
+/*---------------------------- common-code start-----------------------*/
+.same-as{
+    font-size:1.5em;
+    margin-left: 0.4em;
+}
+.range{
+    position: relative;
+    margin-left: 1em;
+    width: 10em;
+    height: 1em;
+    background: white;
+}
+.range-in-sub{
+    position: absolute;
+    width: 3em;
+    height: 1em;
+    background:black ;
+    margin-left: 11em;
+    transform: translateY(-1em);
+}
+.space-around-bet{
+    padding:0.5em
+}
+ /*---------------------- end----------- */
+.languages{
+     background: white;
+    margin-top: 1em;
+    height: 1.7em;
+    padding: 0.5em;
+    font-size:2em ;
+}
+/*------------------------------- linux-using css start-------------------------- */
+
+.linux{
+     font-size:1.5em;
+    margin-left: 0.4em;
+}
+.linux-01{
+     position: relative;
+    margin-left: 1em;
+    width: 7em;
+    height: 1em;
+    background: white;
+}
+.range-in-sub-linux{
+    position: absolute;
+    width: 7em;
+    height: 1em;
+    background:black ;
+    margin-left: 7em;
+    transform: translateY(-1em);
+}
+/* frame-01------------------------end---------------------- */
+/* frame-02 start */
+.frame-02{
+    display: flex;
+     width: 18em;
+    height: 0.5em;
+}
+.line-0101{
+    width: 10m;
+    height: 0.2;
+    background: black;
+}
+.all-edit{
+    margin-left: 1em;
+}
+.education{
+    margin-top: 1em;
+}
+.education::before{
+    content: '';
+    width: 48em;
+    height: 0.1em;
+    position: absolute;
+    background: black;
+    transform: translateY(25px);
+}
+
+
+
